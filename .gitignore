@@ -1,0 +1,41 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+email_log.txt
+
+# Test files (keep in /scripts if needed)
+test_*.py
+verify_*.py
+
+# Sample media
+test_audio.mp3
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Uploads (keep folder, ignore contents)
+uploads/*
+!uploads/.gitkeep
+app/uploads/*
+!app/uploads/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
